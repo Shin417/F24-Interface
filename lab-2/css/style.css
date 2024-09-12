@@ -1,0 +1,30 @@
+/** Step one **/
+
+/** Step two **/
+h1,h2,h3,h4,h5,h6{
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/** Step three **/
+body h1{
+    font-size: 46px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: purple;
+}
+/** Step four **/
+p, li{
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/** Step five **/
+p span{
+  color: red;
+}
+/** Step six **/
+h3{
+  font-size: 50px;
+  text-shadow: 4px 3px 4px rgba(0, 0, 0, .7);
+}
