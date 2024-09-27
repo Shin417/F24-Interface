@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    background-color: #021526;
+}
+
+/*Use Flex to make title center*/
+.title{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Changing font and color. Add shadow*/
+.title > div > h1{
+    font-family: "Unlock", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #808080;
+    font-size: 50px;
+    text-shadow: 10px 10px black;
+}
+
+/* Using flex to make lyrics center*/
+.lyrics{
+    display: flex;
+    justify-content: center;
+}
+
+.lyrics > div{
+    width: 60%;
+}
+
+/*Changing font and Line spacing*/
+.lyrics > div > p{
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: #808080;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*using flex to make video center*/
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
